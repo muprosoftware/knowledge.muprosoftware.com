@@ -36,19 +36,19 @@ export const SIDEBAR: Sidebar = {
   en: {
     "Prepare": [
       { text: "Introduction", link: "en/introduction" },
-      { text: "For users", link: "en/prepare/user" },
+      // { text: "For users", link: "en/prepare/user" },
       { text: "For developers", link: "en/prepare/developer" },
     ],
-    "Pre-simulation":[
-      {text: "Configuration",link:"en/pre-simulation/input"},
-      {text: "Structure",link:"en/pre-simulation/structure"}
-    ],
+    // "Pre-simulation":[
+    //   {text: "Configuration",link:"en/pre-simulation/input"},
+    //   {text: "Structure",link:"en/pre-simulation/structure"}
+    // ],
     "Run simulation":[
       {text: "Start simulation",link:"en/simulation/run"}
     ],
-    "Post-simulation":[
-      {text:"Visualization",link:"en/post-simulation/visualize"}
-    ],
+    // "Post-simulation":[
+    //   {text:"Visualization",link:"en/post-simulation/visualize"}
+    // ],
     "Programming":[
       {text:"Contribution Guide",link:"en/programming/contribute"},
       {text:"Best practices",link:"en/programming/recommendation"}

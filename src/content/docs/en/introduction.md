@@ -9,6 +9,8 @@ Mu-PRO aims to provide easy to use software solutions for mesoscale simulations.
 
 Check out our Github [**organization**](https://github.com/orgs/muprosoftware/) and [**discussion**](https://github.com/orgs/muprosoftware/discussions)!
 
+This website presents you a collection of general mesoscale simulation guidance starting from environment setup to visualizing data. Most of these knowledge is universal to any mesoscale simulation, applying not only to Mu-PRO SDK and software, but also to any other simulation programs.
+
 ### Mu-PRO SDK
 
 We understand each of our users has unique simulation needs, thus our current primary focus is to distribute the Mu-PRO SDK that provides core solvers to our customers and allow them to customize the main programs that utilize these core solvers.

@@ -1,4 +1,6 @@
-# Run the main program
+---
+title: Run the main program
+---
 
 ## Step 1: Connect to the server
 As we did in the [Configure SSH connection section Step 3](ssh.html#step-3-ssh-login).
