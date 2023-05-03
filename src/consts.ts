@@ -50,7 +50,7 @@ export const SIDEBAR: Sidebar = {
     //   {text:"Visualization",link:"en/post-simulation/visualize"}
     // ],
     "Programming":[
-      {text:"Contribution Guide",link:"en/programming/contribute"},
+      {text:"Collaboration",link:"en/programming/contribute"},
       {text:"Best practices",link:"en/programming/recommendation"}
     ],
   },

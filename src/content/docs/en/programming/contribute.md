@@ -1,5 +1,5 @@
 ---
-title: "Contribution guide"
+title: "Coding collaboratively"
 description: "How to contribute to Mu-PRO code"
 ---
 

@@ -3,13 +3,10 @@ title: "Introduction"
 description: "Mu-PRO intro"
 ---
 
-**Welcome to Mu-PRO!**
-
-Mu-PRO aims to provide easy to use software solutions for mesoscale simulations.
-
-Check out our Github [**organization**](https://github.com/orgs/muprosoftware/) and [**discussion**](https://github.com/orgs/muprosoftware/discussions)!
-
 This website presents you a collection of general mesoscale simulation guidance starting from environment setup to visualizing data. Most of these knowledge is universal to any mesoscale simulation, applying not only to Mu-PRO SDK and software, but also to any other simulation programs.
+
+Mu-PRO aims to provide easy to use software solutions for mesoscale simulations. Check out the Mu-PRO Github [**organization**](https://github.com/orgs/muprosoftware/) and [**discussion**](https://github.com/orgs/muprosoftware/discussions)!
+
 
 ### Mu-PRO SDK
 
