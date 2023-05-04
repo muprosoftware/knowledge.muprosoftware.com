@@ -1,19 +1,10 @@
 # Knowledge 
 
+[![Deploy to Cloudflare Pages](https://github.com/muprosoftware/knowledge/actions/workflows/publish.yml/badge.svg)](https://github.com/muprosoftware/knowledge/actions/workflows/publish.yml)
+
 This website wiki site for getting prepared and running mesoscale simulations.
 
-This website is built with 
-
-## Features
-
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+This website is built with Astro.build using the Docs theme.
 
 ## 🧞 Commands
 
@@ -21,18 +12,12 @@ All commands are run from the root of the project, from a terminal:
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-To deploy your site to production, check out our [Deploy an Astro Website](https://docs.astro.build/guides/deploy) guide.
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| `pnpm install`          | Installs dependencies                            |
+| `pnpm run dev`          | Starts local dev server at `localhost:3000`      |
+| `pnpm run build`        | Build your production site to `./dist/`          |
+| `pnpm run preview`      | Preview your build locally, before deploying     |
+| `pnpm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
+| `pnpm run astro --help` | Get help using the Astro CLI                     |
 
 ## Customize This Theme
 
