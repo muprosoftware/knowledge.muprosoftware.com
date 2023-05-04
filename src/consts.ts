@@ -44,7 +44,8 @@ export const SIDEBAR: Sidebar = {
     //   {text: "Structure",link:"en/pre-simulation/structure"}
     // ],
     "Run simulation":[
-      {text: "Start simulation",link:"en/simulation/run"}
+      {text: "Start simulation",link:"en/simulation/run"},
+      {text: "Q&A",link:"en/simulation/questions"}
     ],
     // "Post-simulation":[
     //   {text:"Visualization",link:"en/post-simulation/visualize"}
