@@ -6,26 +6,25 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
   image: {
-    src: "https://github.com/withastro/astro/blob/main/.github/assets/banner.png?raw=true",
+    src: "https://github.com/muprosoftware/knowledge/blob/main/public/mupro-leftright.png?raw=true",
     alt:
-      "astro logo on a starry expanse of space," +
-      " with a purple saturn-like planet floating in the right foreground",
+      "MuPRO software - We provide mesoscale materials simulation solutions."
   },
-  twitter: "astrodotbuild",
+  twitter: "muprosoftware",
 };
 
 export const KNOWN_LANGUAGES = {
   English: "en",
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
-export const GITHUB_EDIT_URL = `https://github.com/muprosoftware/openmupro/edit/main/docs`;
-export const COMMUNITY_INVITE_URL = `https://muprosoftware.com/contact`;
+export const GITHUB_EDIT_URL = `https://github.com/muprosoftware/knowledge/edit/main`;
+export const COMMUNITY_INVITE_URL = `https://github.com/orgs/muprosoftware/discussions`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
-  indexName: "XXXXXXXXXX",
-  appId: "XXXXXXXXXX",
-  apiKey: "XXXXXXXXXX",
+  indexName: "knowledge-muprosoftware",
+  appId: "ESNTMT1QML",
+  apiKey: "2e8ab46bb2a1427e9612eb66f7de7666",
 };
 
 export type Sidebar = Record<
