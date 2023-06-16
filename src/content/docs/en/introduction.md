@@ -3,10 +3,11 @@ title: "Introduction"
 description: "Mu-PRO intro"
 ---
 
-This website presents you a collection of general mesoscale simulation guidance starting from environment setup to visualizing data. Most of these knowledge is universal to any mesoscale simulation, applying not only to Mu-PRO SDK and software, but also to any other simulation programs.
+This website presents you a collection of general guidance for computational materials science. Most of these knowledge is universal to any simulations, though we try to provide more discussion from the MuPRO perspective whenever appropriate.
 
-Mu-PRO aims to provide easy to use software solutions for mesoscale simulations. Check out the Mu-PRO Github [**organization**](https://github.com/orgs/muprosoftware/) and [**discussion**](https://github.com/orgs/muprosoftware/discussions)!
+## MuPRO
 
+> Mu-PRO aims to provide easy to use software solutions for mesoscale simulations. Check out the Mu-PRO Github [**organization**](https://github.com/orgs/muprosoftware/) and [**discussion**](https://github.com/orgs/muprosoftware/discussions)!
 
 ### Mu-PRO SDK
 
@@ -16,15 +17,15 @@ We understand each of our users has unique simulation needs, thus our current pr
 - muprosdk: core solvers, source code not accessible to the buyers
 - main programs: combining subroutines from openmupro and muprosdk to form a simulation program that solves physical models. Buyers may fork and change the source code to reflect their own needs.
 
-
 ### Mu-PRO software
 
 Though, Mu-PRO SDK is the future, for now, we are still only distributing executable only type software. Mu-PRO software is divided into two groups: server software and desktop software.
+
 - server software is designed to run on Linux server using MPI for parallelization. Available modules are:
-  - Ferroelectric: simulate polarization domain structure evolution 
+  - Ferroelectric: simulate polarization domain structure evolution
   - Magnetic: simulate magnetic domain structure evolution with elastic coupling
   - Effective Property: calculate field distribution and effective value of linear properties
-- desktop software is designed to run on Window with a GUI in serial. Available  modules are:
+- desktop software is designed to run on Window with a GUI in serial. Available modules are:
   - Dielectric Breakdown: simulate the dielectric breakdown path evolution based on a stochastic model
   - Effective Property: calculate field distribution and effective value of linear properties
   - Impedance: calculate the impedance of dielectric system at various frequencies

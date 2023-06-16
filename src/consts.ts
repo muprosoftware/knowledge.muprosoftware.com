@@ -35,23 +35,29 @@ export const SIDEBAR: Sidebar = {
   en: {
     "Prepare": [
       { text: "Introduction", link: "en/introduction" },
-      // { text: "For users", link: "en/prepare/user" },
+      { text: "For users", link: "en/prepare/user" },
       { text: "For developers", link: "en/prepare/developer" },
     ],
     // "Pre-simulation":[
     //   {text: "Configuration",link:"en/pre-simulation/input"},
     //   {text: "Structure",link:"en/pre-simulation/structure"}
     // ],
-    "Run simulation":[
-      {text: "Start simulation",link:"en/simulation/run"},
-      {text: "Q&A",link:"en/simulation/questions"}
+    "Run simulation": [
+      { text: "Linux Basics", link: "en/simulation/linux" },
+      { text: "Start simulation", link: "en/simulation/run" },
+      { text: "Q&A", link: "en/simulation/questions" }
     ],
     // "Post-simulation":[
     //   {text:"Visualization",link:"en/post-simulation/visualize"}
     // ],
-    "Programming":[
-      {text:"Collaboration",link:"en/programming/contribute"},
-      {text:"Best practices",link:"en/programming/recommendation"}
+    "Programming": [
+      { text: "Git", link: "en/programming/git" },
+      { text: "CMake", link: "en/programming/cmake" },
+      { text: "Versioning", link: "en/programming/versioning" },
+      { text: "CICD", link: "en/programming/cicd" },
+      { text: "Documentation", link: "en/programming/docs" },
+      { text: "Collaboration", link: "en/programming/contribute" },
+      { text: "Best practices", link: "en/programming/recommendation" }
     ],
   },
 };
