@@ -19,8 +19,8 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Introduction", link: "/en/introduction/" },
-            { label: "For User", link: "/en/prepare/user/" },
-            { label: "For Developer", link: "/en/prepare/developer/" },
+            { label: "MuPRO License", link: "/en/prepare/license" },
+            { label: "User setup", link: "/en/prepare/user/" },
           ],
         },
         {
@@ -29,11 +29,10 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Linux Basics", link: "/en/simulation/linux/" },
             { label: "Start Simulation", link: "/en/simulation/run/" },
-            { label: "Q & A", link: "/en/simulation/questions/" },
           ],
         },
         {
-          label: "Programming",
+          label: "Program customization",
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Git", link: "en/programming/git" },
@@ -45,6 +44,20 @@ export default defineConfig({
             { label: "Best practices", link: "en/programming/recommendation" },
           ],
         },
+        {
+          label: "MuPRO contributor",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "For Developer", link: "/en/developer/developer/" },
+          ],
+        },
+        {
+          label: "Reference",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Q & A", link: "/en/reference/questions/" },
+          ],
+        }
       ],
       customCss: ['/src/assets/landing.css'],
     }),
