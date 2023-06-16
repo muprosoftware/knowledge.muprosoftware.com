@@ -1,36 +1,67 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: MuPRO Knowledge
+description: Learn the basics of working with MuPRO mesoscale solutions!
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Learn the basics of working with MuPRO mesoscale solutions!
+  # image:
+  # file: ../../assets/hero-star.webp
   actions:
-    - text: Example Guide
+    - text: Start learning
       link: /en/introduction/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Visit us on Github
+      link: https://github.com/muprosoftware
       icon: external
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import AboutAstro from '../../components/about-astro.astro';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+<div class="half-container">
+<div class="install">
+<h2 class="install-title">
+Install MuPRO distributions
+</h2>
+<Tabs>
+  <TabItem label="SDK">
+  ```sh
+sh <(curl -s https://download.muprosoftware.com/install.sh) muprosdk 
+  ```
+  </TabItem>
+  <TabItem label="OpenMuPRO">  
+  ```sh
+sh <(curl -s https://download.muprosoftware.com/install.sh) openmupro 
+  ```
+  </TabItem>
+</Tabs>
+</div>
+</div>
 
 ## Next steps
 
-<CardGrid stagger>
-  <Card title="Update content" icon="pencil">
-    Edit `src/content/docs/index.mdx` to see this page change.
+<CardGrid>
+  <Card title="Learn the basics" icon="pencil">
+    Read through the articles on this knowledge site.
   </Card>
-  <Card title="Add new content" icon="add-document">
-    Add Markdown or MDX files to `src/content/docs` to create new pages.
-  </Card>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
+  <Card title="Contact us for a trial" icon="add-document">
+    Check out the [purhcase page](https://muprosoftware.com/purchase/), or send us <a href="mailto:support@muprosoftware.com">email</a>. 
   </Card>
   <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+    Read the [SDK documentation site](https://sdk.muprosoftware.com).
+  </Card>
+  <Card title="Customize your application" icon="setting">
+    Update the main program and customize your application.
   </Card>
 </CardGrid>
+
+<AboutAstro title="Brought to you by">
+Mu-PRO LLC is a mesoscale simulation software provider, focusing on materials microstructures and properties calculations.
+
+[Learn about MuPRO](https://muprosoftware.com/)
+
+Built with starlight theme of astro.build
+
+</AboutAstro>

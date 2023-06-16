@@ -29,7 +29,7 @@ Modern CMake has introduced target-based declarations, which has revolutionized 
 
 ## Target
 In CMake, a target is an endpoint of the build process. It can be an executable file, a library, or a custom command that the build system generates or runs. Targets have properties, like include directories and compile definitions, which you can set to control how they're built. You will create a new target using one of the following two cmake commands.
-```
+```cmake
 add_executable(my_app)
 add_library(my_lib)
 ```
@@ -37,7 +37,7 @@ add_library(my_lib)
 ## Presets
 
 CMake Presets are a new feature as of CMake 3.19 that allow developers to specify common configurations in a JSON file named CMakePresets.json or CMakeUserPresets.json. This simplifies command-line usage and ensures consistent options across different environments.
-```
+```json
 {
   "version": 3,
   "cmakeMinimumRequired": {

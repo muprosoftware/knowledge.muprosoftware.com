@@ -27,7 +27,7 @@ For all MuPRO programs, we relies on the Intel MPI which you can obtain for free
 
 You can run a simple "Hello, World" program to test the MPI. Here's a basic example of what that program might look like in C:
 
-```
+```c
 #include <mpi.h>
 #include <stdio.h>
 
@@ -54,13 +54,13 @@ int main(int argc, char** argv) {
 
 You can compile this program using the `mpiicc` compiler from Intel MPI:
 
-```
+```sh
 mpiicc hello_world.c -o hello_world
 ```
 
 And then run it with the `mpirun` command:
 
-```
+```sh
 mpirun -np 4 ./hello_world
 ```
 
@@ -76,7 +76,7 @@ On many HPC servers, jobs are managed and scheduled using a system like Slurm. H
 
 Here's an example of a Slurm batch script for an MPI job:
 
-```
+```sh
 #!/bin/bash
 #SBATCH --job-name=mpi_job
 #SBATCH --nodes=4
@@ -93,6 +93,6 @@ In this script, we're requesting 4 nodes with 1 task per node, setting a time li
 
 To submit this job, you would save the script to a file (e.g., job.sh) and then use the sbatch command:
 
-```
+```sh
 sbatch job.sh
 ```

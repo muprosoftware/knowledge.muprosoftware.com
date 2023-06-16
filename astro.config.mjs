@@ -8,7 +8,7 @@ export default defineConfig({
       title: "Knowledge",
       description: "Knowledge for MuPRO",
       social: {
-        github: "https://github.com/muprosoftware/knowledge.muprosoftware.com",
+        github: "https://github.com/muprosoftware",
       },
       editLink: {
         baseUrl: 'https://github.com/muprosoftware/knowledge.muprosoftware.com/edit/main/',
@@ -46,6 +46,7 @@ export default defineConfig({
           ],
         },
       ],
+      customCss: ['/src/assets/landing.css'],
     }),
   ],
 

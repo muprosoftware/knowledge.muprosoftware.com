@@ -17,7 +17,7 @@ Before you start, ensure that you have Python and pip (Python's package installe
 
 1. Install Sphinx and MyST-Parser: Run the following commands in your terminal:
 
-```
+```sh
 pip install sphinx
 pip install myst-parser
 ```
@@ -25,7 +25,7 @@ pip install myst-parser
 2. Set up your Sphinx project:
    Create a new directory for your project (replace "your_project" with your desired project name) and navigate into it, then, run sphinx-quickstart to initialize your Sphinx project:
 
-```
+```sh
 mkdir your_project
 cd your_project
 sphinx-quickstart
@@ -34,7 +34,7 @@ sphinx-quickstart
 3. Enable MyST-Parser:
    In your conf.py file (located in the "source" directory), add the following line to the extensions list:
 
-```
+```sh
 extensions = ["myst_parser"]
 ```
 
