@@ -41,6 +41,7 @@ export default defineConfig({
             { label: "CICD", link: "en/programming/cicd" },
             { label: "Documentation", link: "en/programming/docs" },
             { label: "Fortran", link: "en/programming/fortran" },
+            { label: "General Workflow", link: "en/programming/workflow" },
             { label: "Collaboration", link: "en/programming/contribute" },
             { label: "Best practices", link: "en/programming/recommendation" },
           ],

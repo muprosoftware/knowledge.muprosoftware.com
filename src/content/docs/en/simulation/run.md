@@ -3,7 +3,7 @@ title: Run the main program
 ---
 
 ## Step 1: Connect to the server
-As we did in the [Configure SSH connection section Step 3](ssh.html#step-3-ssh-login).
+As we did in the [Configure SSH connection section Step 3](/en/developer/developer/#configure-ssh-connection).
 
 ## Step 2: Create and open directory
 
@@ -18,7 +18,7 @@ mkdir test-run
 
 ## Step 3: Create input files
 
-For a quick start, you can copy input file from the example folder under your corresponding main program, such as for ferroelectric `apps/PhaseFieldFerroelectric/examples`. 
+For a quick start, you can copy input file from the example folder under your corresponding main program, such as for ferroelectric `apps/muFerro/examples`. 
 
 ```sh
 cp /storage/home/xuc116/work/PhaseFieldSDK/apps/PhaseFieldFerroelectric/examples/basic/*.toml .
@@ -30,7 +30,7 @@ If you copy the above command, remember to replace the user name with your own u
 
 Before submitting a simulation job, you can first try running the simulation with a smaller system directly on the login node. Remember you have to shrink the size of these calculations, because login node has limit on memory. To do so, you need to open the _input.toml_ file and update the values behind the **simulation_grid** keyword.
 
-Since we have already configured the **muferro** alias in the [previous step](build.html/step-4-add-alias-for-executable), you can simply call `muferro` within the `test-run` folder to start the ferroelectric program.
+Since we have already configured the **muferro** alias in the [previous step](/en/programming/workflow/#step-5-add-alias-for-executable), you can simply call `muferro` within the `test-run` folder to start the ferroelectric program.
 
 
 ## Step 5: Submit simulation jobs
