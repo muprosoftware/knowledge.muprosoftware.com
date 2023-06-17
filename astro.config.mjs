@@ -57,6 +57,7 @@ export default defineConfig({
           label: "Reference",
           items: [
             // Each item here is one entry in the navigation menu.
+            { label: "Acknowledgement & Citation", link: "/en/reference/acknowledgement/" },
             { label: "Q & A", link: "/en/reference/questions/" },
           ],
         }
