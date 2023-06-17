@@ -40,6 +40,7 @@ export default defineConfig({
             { label: "Versioning", link: "en/programming/versioning" },
             { label: "CICD", link: "en/programming/cicd" },
             { label: "Documentation", link: "en/programming/docs" },
+            { label: "Fortran", link: "en/programming/fortran" },
             { label: "Collaboration", link: "en/programming/contribute" },
             { label: "Best practices", link: "en/programming/recommendation" },
           ],
