@@ -21,6 +21,7 @@ export default defineConfig({
             { label: "Introduction", link: "/en/introduction/" },
             { label: "MuPRO License", link: "/en/prepare/license" },
             { label: "User setup", link: "/en/prepare/user/" },
+            { label: "Obtain trial license", link: "/en/prepare/trial/" },
           ],
         },
         {
@@ -50,15 +51,17 @@ export default defineConfig({
           label: "MuPRO contributor",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "For Developer", link: "/en/developer/developer/" },
+            { label: "Developer setup", link: "/en/developer/developer/" },
           ],
         },
         {
           label: "Reference",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Acknowledgement & Citation", link: "/en/reference/acknowledgement/" },
+            { label: "Acknowledgement", link: "/en/reference/acknowledgement/" },
+            { label: "Citation", link: "/en/reference/citation/" },
             { label: "Q & A", link: "/en/reference/questions/" },
+            { label: "Next steps", link: "/en/reference/next_step/" },
           ],
         }
       ],
