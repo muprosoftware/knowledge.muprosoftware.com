@@ -63,6 +63,12 @@ export default defineConfig({
             { label: "Q & A", link: "/en/reference/questions/" },
             { label: "Next steps", link: "/en/reference/next_step/" },
           ],
+        },
+        {
+          label: "Training",
+          items: [
+            {label: "Prepare", link: "/en/training/prepare/"},
+          ]
         }
       ],
       customCss: ['/src/assets/landing.css'],
