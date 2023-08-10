@@ -37,5 +37,21 @@ The user manual is [here](https://htp-studio.surge.sh/).
 In our next release, you will be able to use the install script to install MuPRO components. For now you can either contact us to get a copy of the MuPRO module that you want to use, or use wget to download them from our server.
 ```sh
 wget https://download.muprosoftware.com/MUPRO-1.0.6-Ferroelectric-Ubuntu22.04.zip
+sudo apt install unzip
 unzip MUPRO-1.0.6-Ferroelectric-Ubuntu22.04.zip
+cd Ferroelectric
+chmod 755 Ferroelectric.exe
 ```
+
+## First Run
+
+Your first run won't be successful because you don't have the proper license yet.
+```sh
+./Ferroelectric.exe
+```
+You will see the following error.
+![First run](first-run.png)
+
+Please provide the screenshot to us, and we will prepare a trial license for you.
+
+Once you receive the `license.lic` file from us, you can put 
