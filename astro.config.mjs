@@ -68,6 +68,8 @@ export default defineConfig({
           label: "Training",
           items: [
             {label: "Prepare", link: "/en/training/prepare/"},
+            {label: "Ferroelectric", link: "/en/training/ferroelectric/"},
+            {label: "Magnetic", link: "/en/training/magnetic/"},
           ]
         }
       ],
