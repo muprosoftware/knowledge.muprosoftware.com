@@ -54,4 +54,8 @@ You will see the following error.
 
 Please provide the screenshot to us, and we will prepare a trial license for you.
 
-Once you receive the `license.lic` file from us, you can put 
+Once you receive the `license.lic` file from us, you need to put it on your linux machine, and export the path to the license file as an environment variable `MUPROROOT`. For example,
+```sh
+export MUPROROOT=$HOME/MUPROTraining
+```
+```
