@@ -50,7 +50,7 @@ Your first run won't be successful because you don't have the proper license yet
 ./Ferroelectric.exe
 ```
 You will see the following error.
-![First run](first-run.png)
+![First run](img/first-run.png)
 
 Please provide the screenshot to us, and we will prepare a trial license for you.
 
