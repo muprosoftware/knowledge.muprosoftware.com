@@ -52,6 +52,7 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Developer setup", link: "/en/developer/developer/" },
+            { label: "Online document", link: "/en/developer/document/" },
           ],
         },
         {
