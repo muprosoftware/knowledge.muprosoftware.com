@@ -168,7 +168,25 @@ Either contact the admin to find where you can find CMake version higher than 3.
 ##### Your own Linux machine
 You should be able to find CMake in most of the distribution's official package manager. Such on Ubuntu, you can install CMake with `sudo apt install cmake`.
 
-
+##### Compile and install from source
+If not provided by the official package manager, it needs to be compiled and installed from source code.
+1.Install the dependency packages required for compilation.
+```sh
+sudo apt update
+sudo apt install build-essential libssl-dev
+```
+2.Visit the official CMake website (https://cmake.org/files/) to download the source zip for versions after 3.20. 
+3.Extract the source package and go to the extracted directory.
+4.Compile and install.
+```sh
+./configure
+make
+sudo make install
+```
+5.Verify the installation.
+```sh
+cmake –version
+```
 
 #### Step 3: Setup Intel environment
 
@@ -185,6 +203,27 @@ Contact the admin to learn how you can access the Intel compiler, Intel MKL, Int
 ##### Your own Linux machine
 Install the Intel oneAPI's basekti and hpckit. [Choose your machine's package manager and follow its instructions](https://www.intel.com/content/www/us/en/develop/documentation/installation-guide-for-intel-oneapi-toolkits-linux/top/installation/install-using-package-managers.html).
 
+##### About the installation of Intel oneAPI Base Toolkit and Intel oneAPI HPC Toolkit (recommended to install the latest version, i.e., version 2024.4.0).
+Note:
+1. When installing Intel oneAPI (version 2021.4.0) on a centos7 system, the mkl file is missing, and when you choose to install Intel oneAPI (version 2024.4.0), there is a version incompatibility problem (glibc is missing, and when installing glibc, you will get an error about the source), so it is not recommended to use a centos7 system. So it is not recommended to use centos7.
+2. When installing wsl on Windows 10, there will be a problem of disk change failure, and Windows 10 may not support the use of Microsoft Store, that is, it is not possible to install Ubuntu.
+3. For Ubuntu installations utilizing VMware, Intel oneAPI is more compatible with Ubuntu 20.04 and Ubuntu 22.04. You can check the systems supported by Intel oneAPI using this link below:https://www.intel.com/content/www/us/en/developer/articles/system-requirements/intel-oneapi-base-toolkit-system-requirements.html.
+
+It is recommended to use the official apt installation method, because it is easier to install and update using apt. If the official apt installation fails you can use the download to install it separately. The official website is:https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-linux/2023-0/apt.html.
+
+Separate installation steps:
+1.Download commands (Intel oneAPI Base Toolkit, Intel oneAPI HPC Toolkit).
+```sh
+wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/9a98af19-1c68-46ce-9fdd-e249240c7c42/l_BaseKit_p_2024.2.0.634_offline.sh
+wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d4e49548-1492-45c9-b678-8268cb0f1b05/l_HPCKit_p_2024.2.0.635_offline.sh 
+```
+2.Installation commands (Intel oneAPI Base Toolkit, Intel oneAPI HPC Toolkit).
+```sh
+sudo sh ./l_BaseKit_p_2024.2.0.634_offline.sh -a --silent --cli --eula accept
+sudo sh ./l_HPCKit_p_2024.2.0.635_offline.sh -a --silent --cli --eula accept
+```
+3.Configure environment variables.
+Add 'source /opt/intel/oneapi/setvars.sh intel64' to the end of the ~/.bashrc file.
 
 #### Step 4: Configure git 
 
@@ -219,6 +258,28 @@ cat ~/.ssh/id_ed25519.pub
 
 7. Verify your new ssh key with the following command `ssh -T git@github.com`. If successful, now you will be able to clone the source code from Github.
 
+#### Step 5: Installing Ninja 
+
+Two installation methods are provided, and the reader can choose either one to install.
+1.Use the apt command to install.
+```sh
+sudo apt update
+sudo apt install ninja-build
+```
+2.Install from source (you also need to install re2c and python, intel has python built in).
+2.1 Download Ninja's source code from Github.
+```sh
+git clone https://github.com/ninja-build/ninja.git
+cd ninja
+```
+2.2 Configure the build process.
+```sh
+./configure.py --bootstrap
+```
+2.3 Install Ninja on your system.
+```sh
+sudo install ninja /usr/local/bin/
+```
 
 
 ### Obtain the source code
