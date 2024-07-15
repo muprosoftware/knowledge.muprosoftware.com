@@ -261,6 +261,7 @@ cat ~/.ssh/id_ed25519.pub
 #### Step 5: Installing Ninja 
 
 Two installation methods are provided, and the reader can choose either one to install.
+
 1.Use the apt command to install.
 ```sh
 sudo apt update
