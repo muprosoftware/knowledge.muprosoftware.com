@@ -170,6 +170,7 @@ You should be able to find CMake in most of the distribution's official package 
 
 ##### Compile and install from source
 If not provided by the official package manager, it needs to be compiled and installed from source code.
+
 1.Install the dependency packages required for compilation.
 ```sh
 sudo apt update
@@ -205,6 +206,7 @@ Install the Intel oneAPI's basekti and hpckit. [Choose your machine's package ma
 
 ##### About the installation of Intel oneAPI Base Toolkit and Intel oneAPI HPC Toolkit (recommended to install the latest version, i.e., version 2024.4.0).
 Note:
+
 1. When installing Intel oneAPI (version 2021.4.0) on a centos7 system, the mkl file is missing, and when you choose to install Intel oneAPI (version 2024.4.0), there is a version incompatibility problem (glibc is missing, and when installing glibc, you will get an error about the source), so it is not recommended to use a centos7 system. So it is not recommended to use centos7.
 2. When installing wsl on Windows 10, there will be a problem of disk change failure, and Windows 10 may not support the use of Microsoft Store, that is, it is not possible to install Ubuntu.
 3. For Ubuntu installations utilizing VMware, Intel oneAPI is more compatible with Ubuntu 20.04 and Ubuntu 22.04. You can check the systems supported by Intel oneAPI using this link below:https://www.intel.com/content/www/us/en/developer/articles/system-requirements/intel-oneapi-base-toolkit-system-requirements.html.
@@ -212,6 +214,7 @@ Note:
 It is recommended to use the official apt installation method, because it is easier to install and update using apt. If the official apt installation fails you can use the download to install it separately. The official website is:https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-linux/2023-0/apt.html.
 
 Separate installation steps:
+
 1.Download commands (Intel oneAPI Base Toolkit, Intel oneAPI HPC Toolkit).
 ```sh
 wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/9a98af19-1c68-46ce-9fdd-e249240c7c42/l_BaseKit_p_2024.2.0.634_offline.sh
