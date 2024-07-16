@@ -211,7 +211,8 @@ Note:
 2. When installing wsl on Windows 10, there will be a problem of disk change failure, and Windows 10 may not support the use of Microsoft Store, that is, it is not possible to install Ubuntu.
 3. For Ubuntu installations utilizing VMware, Intel oneAPI is more compatible with Ubuntu 20.04 and Ubuntu 22.04. You can check the systems supported by Intel oneAPI using this link below:https://www.intel.com/content/www/us/en/developer/articles/system-requirements/intel-oneapi-base-toolkit-system-requirements.html.
 
-It is recommended to use the official apt installation method, because it is easier to install and update using apt. If the official apt installation fails you can use the download to install it separately. The official website is:https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-linux/2023-0/apt.html.
+It is recommended to use the official apt installation method, because it is easier to install and update using apt. If the official apt installation fails you can use the download to install it separately. The official website is:
+https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-linux/2023-0/apt.html.
 
 Separate installation steps:
 
