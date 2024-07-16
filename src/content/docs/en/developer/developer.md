@@ -268,6 +268,7 @@ sudo apt update
 sudo apt install ninja-build
 ```
 2.Install from source (you also need to install re2c and python, intel has python built in).
+
 2.1 Download Ninja's source code from Github.
 ```sh
 git clone https://github.com/ninja-build/ninja.git
