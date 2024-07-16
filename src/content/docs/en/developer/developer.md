@@ -177,7 +177,9 @@ sudo apt update
 sudo apt install build-essential libssl-dev
 ```
 2.Visit the official CMake website (https://cmake.org/files/) to download the source zip for versions after 3.20. 
+
 3.Extract the source package and go to the extracted directory.
+
 4.Compile and install.
 ```sh
 ./configure
