@@ -1,0 +1,68 @@
+---
+title: MuPRO Knowledge
+description: 学习使用 MuPRO 介微观解决方案的基础知识!
+template: splash
+hero:
+  tagline: 学习使用 MuPRO 介微观解决方案的基础知识!
+  # image:
+  # file: ../../../assets/hero-star.webp
+  actions:
+    - text: 开始使用
+      link: /zh-cn/introduction/
+      icon: right-arrow
+      variant: primary
+    - text: 在 GitHub 上查看
+      link: https://github.com/muprosoftware
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import AboutAstro from '../../../components/about-astro.astro';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+
+<div class="half-container">
+<div class="install">
+<h2 class="install-title">
+安装 MuPRO 发行版
+</h2>
+<Tabs>
+  <TabItem label="SDK">
+  ```sh
+sh <(curl -s https://download.muprosoftware.com/install.sh) muprosdk 
+  ```
+  </TabItem>
+  <TabItem label="OpenMuPRO">  
+  ```sh
+sh <(curl -s https://download.muprosoftware.com/install.sh) openmupro 
+  ```
+  </TabItem>
+</Tabs>
+</div>
+</div>
+
+## 下一步
+
+<CardGrid>
+  <Card title="了解基础知识" icon="pencil">
+    阅读[此知识网站](/zh-cn/introduction)上的文章。
+  </Card>
+  <Card title="获取证书" icon="add-document">
+    查看[购买页面](https://muprosoftware.com/purchase/)，或向我们发送<a href="mailto:support@muprosoftware.com">电子邮件</a>。
+  </Card>
+  <Card title="阅读文档" icon="open-book">
+    阅读 [SDK 文档](https://sdk.muprosoftware.com).
+  </Card>
+  <Card title="自定义您的应用程序" icon="setting">
+    更新主程序并定制您的应用程序。
+  </Card>
+</CardGrid>
+
+<AboutAstro title="由以下提供支持">
+Mu-PRO LLC 是一家介微观模拟软件提供商，专注于材料微观结构和性能计算。
+
+[了解 MuPRO](https://muprosoftware.com/)
+
+使用 astro.build 的 starlight 主题构建
+
+</AboutAstro>

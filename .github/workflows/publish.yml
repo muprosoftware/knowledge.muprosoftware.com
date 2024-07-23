@@ -6,6 +6,7 @@ on:
       - "src/**"
       - "public/**"
       - ".github/workflows/publish.yml"
+      - "astro.config.mjs"
     branches: [main]
   workflow_dispatch:
 
