@@ -70,9 +70,9 @@ mpirun -np 4 ./hello_world
 
 在许多高性能计算服务器上，作业都是通过 Slurm 这样的系统进行管理和调度的。下面是一些基本的 Slurm 命令：
 
-1.sbatch：这是用于向 Slurm 调度器提交作业的命令。一般与批处理脚本一起使用。
-2.squeue：显示队列中作业的状态。
-3.scancel：允许您取消作业。您必须提供作业ID，该ID可以从 squeue 命令中获取。
+1.sbatch：这是用于向 Slurm 调度器提交作业的命令。一般与批处理脚本一起使用。    
+2.squeue：显示队列中作业的状态。    
+3.scancel：允许您取消作业。您必须提供作业ID，该ID可以从 squeue 命令中获取。    
 
 下面是一个 MPI 作业的 Slurm 批量脚本示例：
 
