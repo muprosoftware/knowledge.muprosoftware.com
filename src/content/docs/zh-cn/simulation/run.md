@@ -3,7 +3,7 @@ title: 运行主程序
 ---
 
 ## 步骤 1：连接服务器
-正如我们在[配置 SSH 连接部分 步骤 3](/en/developer/developer/#configure-ssh-connection)中所做的那样。
+正如我们在[配置 SSH 连接部分 步骤 3](/en/zh-cn/developer/developer/#配置-SSH-连接)中所做的那样。
 
 ## 步骤 2：创建并打开目录
 
@@ -28,9 +28,9 @@ cp /storage/home/xuc116/work/PhaseFieldSDK/apps/PhaseFieldFerroelectric/examples
 
 ## 步骤 4：试运行模拟
 
-在提交仿真作业之前，您可以先尝试直接在登录节点上使用较小的系统运行仿真。请记住，您必须缩小这些计算的大小，因为登录节点有内存限制。为此，您需要打开_input.toml_文件，更新**simulation_grid**关键字后面的值。
+在提交仿真作业之前，您可以先尝试直接在登录节点上使用较小的系统运行仿真。请记住，您必须缩小这些计算的大小，因为登录节点有内存限制。为此，您需要打开 input.toml 文件，更新**simulation_grid**关键字后面的值。
 
-由于我们已在[上一步](/en/programming/workflow/#step-5-add-alias-for-executable)配置了**muferro**别名，因此只需在 test-run 文件夹中调用 muferro 即可启动铁电体程序。
+由于我们已在[上一步](/en/zh-cn/programming/workflow/#第5步-为可执行文件添加别名)配置了**muferro**别名，因此只需在 test-run 文件夹中调用 muferro 即可启动铁电体程序。
 
 ## 第 5 步：提交模拟作业
 
