@@ -42,7 +42,7 @@ title: 通用工作流程
 
 #### HPC 服务器
 
-使用[上一步](/en/zh-cn/developer/developer/#setup-building-environment)提到的模块加载命令。如果你已经正确设置了 ~/.bashrc 文件，也可以忽略此步骤。
+使用上一步提到的模块加载命令。如果你已经正确设置了 ~/.bashrc 文件，也可以忽略此步骤。
 
 
 #### 你自己的 Linux 机器
