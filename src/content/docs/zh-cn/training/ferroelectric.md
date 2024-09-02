@@ -2,4 +2,8 @@
 title: 铁电（Ferroelectric）
 ---
 
-待翻译
+## 背景
+
+## 输入
+
+## 
